@@ -6,6 +6,11 @@ for(let number of numbers){
     if(number===6){
         break;
     }
-    console.log(number);
+    //console.log(number);
 }
-// 
+// for findin Index 
+let numberForMap=[10,50,60,9,50,85,65,25,26,90,80];
+
+const findind=numberForMap.findIndex(number=>number===80);
+console.log(findind);
+
